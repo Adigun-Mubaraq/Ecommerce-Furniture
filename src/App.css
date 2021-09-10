@@ -1,38 +1,132 @@
-.App {
-  text-align: center;
+body,
+html {
+  color: black;
+  font-size: 16px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.wordmark {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.125rem;
+  color: #054C73;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav-link {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.875rem;
+  color: #333333;
+  list-style-type: none;
 }
 
-.App-header {
-  background-color: #282c34;
+.main-section {
+  background-image: url("./assets/images/bg-image.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: auto;
+  width: 100vw;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  justify-content: flex-end;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.overlay {
+  background: #DFE9F4;
+  border-radius: 0.625rem;
+  padding: 2.53125rem;
+  margin-right: 6.25rem;
 }
 
-.App-link {
-  color: #61dafb;
+.overlay-title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+  letter-spacing: 0.1875rem;
+  color: #333333;
+  margin-bottom: 1.25rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.overlay-header {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 3.25rem;
+  line-height: 4.0625rem;
+  color: #054C73;
+  width: 34.9375rem;
+  margin-bottom: 1.25rem;
+}
+
+.overlay-text {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 39px;
+  color: #333333;
+  width: 34.125rem;
+  margin-bottom: 1,875rem;
+}
+
+.overlay-button {
+  padding: 25px 72px !important;
+  background: #054C73 !important;
+  border-radius: 3.125rem !important;
+  font-family: Montserrat !important;
+  font-style: normal !important;
+  font-weight: bold !important;
+  font-size: 1rem !important;
+  text-transform: uppercase !important;
+  color: #FFFFFF !important;
+}
+.icon-container {
+  padding: 2.875rem 7.5rem;
+  background-color: #F2F5FF;
+}
+
+.icon-title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #333333;
+  margin-bottom: 0.375rem;
+  margin-top: 0;
+}
+
+.icon-text {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  color: #333333;
+  margin: 0;
+}
+
+.collection-title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2rem;
+  color: #333333;
+  text-align: center;
+  margin-bottom: 1.25rem;
+  margin-top: 0;
+}
+
+.collection-text {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.25rem;
+  text-align: center;
+  color: #666666;
+  margin-top: 0;
+  margin-bottom: 3.125rem;
 }
