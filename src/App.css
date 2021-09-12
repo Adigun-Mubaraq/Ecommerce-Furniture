@@ -4,6 +4,10 @@ html {
   font-size: 16px;
 }
 
+.container {
+  padding: 3.75rem 7.5rem;
+}
+
 .wordmark {
   font-family: Montserrat;
   font-style: normal;
