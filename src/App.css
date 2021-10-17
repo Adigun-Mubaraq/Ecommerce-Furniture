@@ -4,6 +4,10 @@ html {
   font-size: 16px;
 }
 
+p {
+  margin: 0;
+}
+
 .container {
   padding: 3.75rem 7.5rem;
 }
@@ -113,7 +117,7 @@ html {
   margin: 0;
 }
 
-.collection-title {
+.title {
   font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
@@ -124,7 +128,7 @@ html {
   margin-top: 0;
 }
 
-.collection-text {
+.subTitle {
   font-family: Montserrat;
   font-style: normal;
   font-weight: normal;
@@ -133,4 +137,137 @@ html {
   color: #666666;
   margin-top: 0;
   margin-bottom: 3.125rem;
+}
+
+.beautify-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #F2F5FF;
+  padding-top: 3.75rem;
+  padding-bottom: 3.75rem;
+}
+
+.beautify-contain {
+  text-align: left;
+  max-width: 90%;
+}
+
+.beautify-title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2rem;
+  color: #333333;
+}
+
+.beautify-text {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.25rem;
+  line-height: 2.4375rem;
+  color: #666666;
+  margin-bottom: 1.88375rem;
+}
+
+.beautify-button {
+  padding: 1.5rem 3.5625rem !important;
+  background: #054C73 !important;
+  border-radius: 3.125rem !important;
+  color: #fff !important;
+}
+
+.caption {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #333333;
+}
+
+.caption-title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  color: #333333;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+
+.caption-text {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: #666666;
+  text-align: center;
+  width: 318px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.newsletter-container {
+  background: #F2F5FF;
+  display: flex;
+  justify-content: center;
+  padding-top: 3.75rem;
+  padding-bottom: 3.75rem;
+}
+
+.newsletter-title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  text-align: center;
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+
+.newsletter-subTitle {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  text-align: center;
+  color: #666666;
+  width: 514px;
+}
+
+.mail-container {
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.inputMail {
+  background: #FFFFFF;
+  border: 1px solid #054C73;
+  border-radius: 3px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #011C42;
+  opacity: 0.3;
+  padding: 25px;
+  width: 333px;
+}
+
+.submit {
+  background: #054C73;
+  border: 1px solid #011C42;
+  border-radius: 3px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  color: #FFFFFF;
+  padding: 27px;
 }
